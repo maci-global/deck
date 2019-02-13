@@ -505,7 +505,7 @@ body {
   pointer-events: none;
   overflow: visible;
   z-index: 1;
-  text-align: center;
+  text-align: left;
   -webkit-perspective: 600px;
           perspective: 600px;
   -webkit-perspective-origin: 50% 40%;
@@ -1267,7 +1267,8 @@ body {
 .reveal.rtl .slides h5,
 .reveal.rtl .slides h6 {
   direction: rtl;
-  font-family: sans-serif; }
+  font-family: sans-serif; 
+  text-transform: none;}
 
 .reveal.rtl pre,
 .reveal.rtl code {
